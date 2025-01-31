@@ -1,0 +1,6 @@
+.bannerImg{
+    background-image: url('images/cat-big.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+}
