@@ -1,6 +1,42 @@
+.sora-font{
+        font-family: "Sora", serif;
+}
+.adlam-display-font {
+        font-family: "ADLaM Display", serif;
+}
 .bannerImg{
-    background-image: url('images/cat-big.png');
-    background-repeat: no-repeat;
-    background-position: left bottom;
-    background-size: cover;
+        background-image: url('images/cat-big.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-bottom: 400px;
+        width: 100%;
+}
+.dogpic{
+        padding-top: 50px;
+       
+}
+.dogpic img{
+        height: 200px;
+}
+@media screen and (max-width:640px) {
+        .logo,
+        .items,
+        .icon-btn{
+                display: none;
+        }
+        .bannerImg{
+                /* width: auto; */
+                padding-bottom: 200px;
+                width: 100%;
+                background-position: center;
+                
+        }
+}
+@media  screen and (min-width:640px) and (max-width:768px) {
+        .logo,
+        .items,
+        .icon-btn{
+                display: none;
+        }
 }
