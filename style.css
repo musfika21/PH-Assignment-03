@@ -4,14 +4,17 @@
 .adlam-display-font {
         font-family: "ADLaM Display", serif;
 }
-.bannerImg{
-        background-image: url('images/cat-big.png');
-}
 .dogpic{
         padding-top: 50px;
 }
 .dogpic img{
         height: 200px;
+}
+.big-card{
+        background: linear-gradient(134.71deg, rgb(247, 204, 251) 1.511%,rgb(175, 210, 253) 100%);
+}
+.small-card{
+        background: linear-gradient(134.71deg, rgb(255, 249, 244) 1.511%,rgb(249, 223, 138) 100%);
 }
 @media screen and (max-width:640px) {
         .logo,
@@ -20,9 +23,9 @@
                 display: none;
         }
         .bannerImg{
-                background-position: center;
+                /* background-position: center; */
                 /* padding-bottom: 0px; */
-                width: auto;
+                /* width: auto; */
         }
 }
 @media  screen and (min-width:640px) and (max-width:768px) {
